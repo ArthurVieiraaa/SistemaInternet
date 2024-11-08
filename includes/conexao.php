@@ -1,7 +1,7 @@
 <?php 
 
 $hostname = "localhost";
-$database = "sistemareclamacao";
+$database = "sistemainternet";
 $username = "root";
 $password = "";
 
