@@ -74,11 +74,11 @@
     
 }
 
-.btn-cadastro{
+.btn-logar{
     display: flex;
     justify-content: center;
     align-items: center;
-    button {
+    input {
         width: 60%;
         padding: 18px;
         margin: 20px 0;
@@ -92,7 +92,7 @@
         cursor: pointer;
         transition: all 0.3s;
     }
-    button:hover {
+    input:hover {
         background-color: #6189E0;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
         transition: all 0.3s;

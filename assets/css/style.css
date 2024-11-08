@@ -1005,12 +1005,12 @@ h1 {
   border-radius: 50px;
 }
 
-.btn-logar {
+.btn-cadastro {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.btn-logar button {
+.btn-cadastro input {
   width: 40%;
   padding: 18px;
   margin: 10px 0;
@@ -1024,7 +1024,7 @@ h1 {
   cursor: pointer;
   transition: all 0.3s;
 }
-.btn-logar button:hover {
+.btn-cadastro input:hover {
   background-color: #6189E0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   transition: all 0.3s;
@@ -1106,12 +1106,12 @@ h1 {
   border-radius: 50px;
 }
 
-.btn-cadastro {
+.btn-logar {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.btn-cadastro button {
+.btn-logar input {
   width: 60%;
   padding: 18px;
   margin: 20px 0;
@@ -1125,7 +1125,7 @@ h1 {
   cursor: pointer;
   transition: all 0.3s;
 }
-.btn-cadastro button:hover {
+.btn-logar input:hover {
   background-color: #6189E0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   transition: all 0.3s;
@@ -1255,7 +1255,7 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-.btn-senha button {
+.btn-senha input {
   width: 40%;
   padding: 18px;
   margin: 10px 0;
@@ -1269,7 +1269,7 @@ h1 {
   cursor: pointer;
   transition: all 0.3s;
 }
-.btn-senha button:hover {
+.btn-senha input:hover {
   background-color: #6189E0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   transition: all 0.3s;
