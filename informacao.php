@@ -1,6 +1,14 @@
 <?php
     $title = "PAINEL DE INFORMAÇÕES";
-    include "includes/header.php";
+    include "includes/conexao.php";
+
+    session_start();
+    if((!isset($_SESSION['Usuario']) == true) && (!isset($_SESSION['senha']) == true)){
+        unset($_SESSION['Usuario']);
+        unset($_SESSION['senha']);
+        header("Location: login.php");
+    }
+    $logado = $_SESSION['Usuario'];
 ?>
 
 <?php
