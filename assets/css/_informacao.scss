@@ -1,0 +1,99 @@
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.info-header{
+    width: 60%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6189E0;
+    border-radius: 20px;
+    h1 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+}
+
+.container-text{
+    width: 58%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-top: 20px;
+    h1 {
+        color: #000;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        text-align: start;
+    }
+}
+
+.container-duvidas{
+    width: 60%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    margin-top: 20px;
+    h1 {
+        color: #000;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        text-align: start;
+        margin-left: 40px;
+    }
+    input {
+        width: 90%;
+        padding: 18px;
+        margin-left: 40px;
+        font-size: 16px;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+    }
+}
+
+.btn-duvida{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 15px;
+    button {
+        padding: 10px 20px;
+        border: none;
+        outline: none;
+        border-radius: 50px;
+        background-color: #6189E0;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    button:hover {
+        background-color: #4a6cb7;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
+}
