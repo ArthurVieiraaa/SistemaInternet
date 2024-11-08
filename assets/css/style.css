@@ -800,7 +800,7 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-.btn-salvar button {
+.btn-salvar input {
   width: 40%;
   padding: 18px;
   margin: 10px 0;
@@ -814,7 +814,7 @@ h1 {
   cursor: pointer;
   transition: all 0.3s;
 }
-.btn-salvar button:hover {
+.btn-salvar input:hover {
   background-color: #6189E0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   transition: all 0.3s;

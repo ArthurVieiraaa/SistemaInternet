@@ -10,6 +10,14 @@
         header("Location: login.php");
     }
     $logado = $_SESSION['Usuario'];
+
+    if(isset($_POST['submit'])){
+        $Usuario = $_POST['Usuario'];
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
+
+        $result = mysqli_query($conexao, "UPDATE usuario SET Usuario = '$Usuario', email = '$email', senha = '$senha' WHERE Usuario = '$logado'");
+    }
 ?>
 
 <div class="info-usuario">
@@ -47,14 +55,12 @@
         <div class="info-usuario-form">
             <form action="" method="POST">
                 <h2>Usuário:</h2>
-                <input type="text" name="user" placeholder="Alterar seu Usuário..." required>
+                <input type="text" name="Usuario" placeholder="Alterar seu Usuário..." required>
                 <h2>Email:</h2>
                 <input type="text" name="email" placeholder="Alterar seu Email..."  required>
-                <h2>Número:</h2>
-                <input type="number" name="numero" placeholder="Alterar seu Número..."  required>
                 <h2>Senha:</h2>
                 <input type="password" name="senha" placeholder="Digite sua Senha..."  required>
-                <div class="btn-salvar"><button type="submit">Salvar</button></div>
+                <div class="btn-salvar"><input type="submit" name="submit" ></div>
             </form>
         </div>
     </div>
