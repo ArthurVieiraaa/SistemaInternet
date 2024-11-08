@@ -1,6 +1,7 @@
 <?php
     $title = "INFORMAÇÕES DO USUÁRIO";
     include "includes/conexao.php";
+    include "includes/header.php";
 
     session_start();
     if((!isset($_SESSION['Usuario']) == true) && (!isset($_SESSION['senha']) == true)){
