@@ -1,6 +1,7 @@
 <?php
     $title = "LOGIN";
     include "includes/header.php";
+    include "includes/conexao.php";
 ?>
 
 <div class="login">
@@ -12,12 +13,12 @@
         </div>
         <div class="login-form">
             <h1>LOGIN</h1>
-            <form action="" method="POST">
+            <form action="includes/testLogin.php" method="POST">
                 <h2>Usuário:</h2>
-                <input type="text" name="user" placeholder="Digite seu Usuário..." required>
+                <input type="text" name="Usuario" placeholder="Digite seu Usuário..." required>
                 <h2>Senha:</h2>
-                <input type="password" name="password" placeholder="Digite sua Senha..."  required>
-                <div class="btn-logar"><button type="submit">Entrar</button></div>
+                <input type="password" name="senha" placeholder="Digite sua Senha..."  required>
+                <div class="btn-logar"><input type="submit" name="submit"></div>
                 <div class="btn-links">
                     <a href="#"><i class="fa-brands fa-google"></i></a>
                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
