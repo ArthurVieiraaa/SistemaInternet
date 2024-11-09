@@ -325,3 +325,180 @@
     margin-right: 30px;
     margin-top: 10px;
 }
+
+@media (max-width: 1024px) {
+    .logo{
+        i {
+            font-size: 15px;
+            margin-left: 0px;
+        }
+        h1 {
+            font-size: 20px;
+            margin-left: 0px;
+        }
+    }
+    .home-text{
+        h1 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    .card-denuncia{
+        margin-top: 20px;
+        height: 270px;
+        h1 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 16px;
+            margin-top: 15px;
+            width: 90%;
+        }
+        a {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    }
+    .card-denuncia .btn-denuncia{
+        margin-top: 5px;
+    }
+    .containers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0;
+    }
+    .card-info{
+        width: 100%;
+        margin-top: 20px;
+        height: 270px;
+        h1 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 16px;
+            margin-top: 15px;
+            width: 90%;
+        }
+        a {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    }
+    .card-info .btn-info{
+        margin-top: 5px;
+    }
+    .card-sugestao{
+        width: 100%;
+        margin-top: 20px;
+        height: 270px;
+        h1 {
+            font-size: 22px;
+        }
+        p {
+            font-size: 16px;
+            margin-top: 15px;
+            width: 90%;
+        }
+        a {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    }
+    .card-sugestao .btn-sugestao{
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 935px) {
+    .logo{
+        i {
+            font-size: 12px;
+            margin-left: 0px;
+        }
+        h1 {
+            font-size: 16px;
+            margin-left: 0px;
+        }
+    }
+    .home-text{
+        h1 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    .card-denuncia{
+        margin-top: 20px;
+        height: 280px;
+        h1 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 14px;
+            margin-top: 15px;
+            width: 85%;
+        }
+        a {
+            width: 30%;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+    }
+    .card-denuncia .btn-denuncia{
+        margin-top: 5px;
+    }
+    .containers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0;
+    }
+    .card-info{
+        width: 100%;
+        margin-top: 20px;
+        height: 280px;
+        h1 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 14px;
+            margin-top: 15px;
+            width: 85%;
+        }
+        a {
+            width: 30%;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+    }
+    .card-info .btn-info{
+        margin-top: 5px;
+    }
+    .card-sugestao{
+        width: 100%;
+        margin-top: 20px;
+        height: 280px;
+        h1 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 14px;
+            margin-top: 15px;
+            width: 85%;
+        }
+        a {
+            width: 30%;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+    }
+    .card-sugestao .btn-sugestao{
+        margin-top: 5px;
+    }
+}
