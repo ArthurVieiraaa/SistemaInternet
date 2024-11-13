@@ -6,7 +6,6 @@
     if(isset($_POST['submit'])){
         $email = $_POST['email'];
         $senha = $_POST['senha'];
-
         $result = mysqli_query($conexao, "UPDATE usuario SET senha = '$senha' WHERE email = '$email'");
     }
 ?>

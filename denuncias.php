@@ -7,7 +7,6 @@
     if((!isset($_SESSION['Usuario']) == true) && (!isset($_SESSION['senha']) == true)){
         unset($_SESSION['Usuario']);
         unset($_SESSION['senha']);
-        header("Location: login.php");
     }
     $logado = $_SESSION['Usuario'];
 ?>
@@ -22,19 +21,13 @@
             <h1>PAINEL DE DENÚNCIAS</h1>
         </div>
         <div class="denuncia-form">
-            <form action="">
+            <form id="form">
                 <h1>O que você deseja denunciar?</h1>
-                <input type="text" name="titulo" placeholder="Digite o Ocorrido..." required>
+                <input type="text" id="titulo" name="titulo" placeholder="Digite o Ocorrido..." required>
                 <h1>Em qual periodo ocorreu?</h1>
-                <input type="date" name="data" required>
-                <select name="" id="">
-                    <option value="selecione">Selecione o Periodo</option>
-                    <option value="manha">Periodo da Manha</option>
-                    <option value="tarder">Periodo da Tarde</option>
-                    <option value="noite">Periodo da Noite</option>
-                </select>
+                <input type="text" id="data" name="data" placeholder="Digite qual o periodo do ocorrido..." required>
                 <h1>Descreva o ocorrido:</h1>
-                <textarea name="descricao" id="" cols="30" rows="10" placeholder="Descreva o Ocorrido..." required></textarea>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Descreva o Ocorrido..." required></textarea>
                 <div class="checkbox">
                     <input type="checkbox" name="termos" id="">
                     <h1>Ao enviar sua reclamação, você concorda que as informações fornecidas são verdadeiras e que está ciente de nossos <span>termos de uso</span>.</h1>
