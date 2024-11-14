@@ -22,3 +22,4 @@ function emailSend(e) {
 };
 
 form.addEventListener('submit', emailSend);
+
